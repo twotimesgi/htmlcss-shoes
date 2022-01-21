@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -38,7 +41,7 @@ main{
 }
 
 .circles span:active{
-    background-color: #f6f6f6s;
+    background-color: #f6f6f6;
 }
 
 .circles a{
