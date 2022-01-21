@@ -30,6 +30,15 @@ main{
     font-size: 1rem;
     margin-left: 30px;
     text-align: center;
+    box-shadow: 5px 5px 27px 5px rgba(0,0,0,0.2);
+}
+
+.circles span:hover{
+    box-shadow: 5px 5px 27px 5px rgba(0,0,0,0.4);
+}
+
+.circles span:active{
+    background-color: #f6f6f6s;
 }
 
 .circles a{
