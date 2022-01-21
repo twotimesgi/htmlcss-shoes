@@ -1,20 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .slide{
     height: 100vh;
     width: 100%;
+    position: relative;
 }
 
 .red{
     background-color: red;
+    color: yellow;
 }
 
 .green{
     background-color: green;
+    color: yellow;
 }
 
 .yellow{
     background-color: yellow;
+    color: green;
 }
 
 h1{
     font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
